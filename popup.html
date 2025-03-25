@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Popup</title>
+    <style>
+      body {
+        width: 200px;
+        height: 200px;
+        font-family: Arial, sans-serif;
+      }
+      #loadurl {
+        margin-top: 10px;
+        display: none;  /* Initially hidden */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Robot Framework Recorder</h1>
+    <button id="Record">Record</button>
+    <button id="Stop">Stop</button>
+    <button id="Save">Save</button>
+    
+    <!-- Hidden URL input and button -->
+    <div id="loadurl">
+      <input type="text" id="urlInput" placeholder="Enter URL">
+      <button id="loadUrlButton">Load URL</button>
+    </div>
+    
+    <script src="popup.js"></script>
+  </body>
+</html>
